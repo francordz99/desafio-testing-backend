@@ -80,3 +80,6 @@ server.listen(port, () => {
     logger.info(`Servidor Express escuchando en el puerto ${port}`);
 });
 
+// Exportacion De App
+
+export { app };
